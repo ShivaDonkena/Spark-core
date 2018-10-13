@@ -1,0 +1,2 @@
+#bash
+spark-submit --master yarn-client --driver-memory 2g --num-executors 3 --executor-memory 1g --conf spark.executor.cores=5 spark-core-homework-1.0.0.jar /user/spark/bids.txt /user/spark/motels.txt /user/spark/exchange_rate.txt /user/spark/spark-core-output
